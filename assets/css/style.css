@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Asterisk wildcard selector to override default styles addded by the browser */
 * {
   margin: 0;
@@ -13,41 +12,9 @@ header {
 /* Main content */
 main {
   background-color: lightblue;
-=======
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-}
-
-/* Header */
-header {
-    background-color: lightcoral;
-}
-
-/* main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
->>>>>>> aed49b4666e4ec2a3d3607d77acb6ed783d71314
 }
 
 /* Footer */
 footer {
-<<<<<<< HEAD
   background-color: orange;
 }
-=======
-    background-color: orange;
-}
->>>>>>> aed49b4666e4ec2a3d3607d77acb6ed783d71314
