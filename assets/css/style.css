@@ -36,6 +36,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
+/* h1 header font-family */
 header a {
   text-decoration: none;
   color: inherit;
@@ -73,7 +74,6 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
-/* h1 header font-family */
 
 /* Main content */
 main {
@@ -163,6 +163,18 @@ main {
   font-size: 280%;
   margin-bottom: 20px auto;
   text-align: center;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+#benefits p {
+  padding: 0 20px;
+}
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
