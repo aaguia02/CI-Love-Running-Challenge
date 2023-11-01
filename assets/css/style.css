@@ -215,10 +215,10 @@ main {
     border-bottom: 1px solid #3a3a3a;
   }
 }
+
 /* Larger devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   /* Reasons section */
-
   #benefits {
     display: flex;
     flex-direction: row;
@@ -227,7 +227,7 @@ main {
     flex: 1;
   }
   #benefits-image {
-    order: 0;
+    order: 0
   }
   #benefits-mental {
     order: 1;
