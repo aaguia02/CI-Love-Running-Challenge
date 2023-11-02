@@ -216,21 +216,23 @@ main {
   flex-grow: 1;
   padding: 20px 10px 0 10px;
 }
-signup-form > h2 {
-  color: #fafafa;
-  padding: 20px;
-}
+
 #signup-form {
   color: #ffffff;
   background-color: rgba(60, 60, 60, 0.6);
   padding: 30px;
+}
+
+#signup-form > h2 {
+  color: #fafafa;
+  padding: 20px;
 }
 .text-input {
   background: transparent;
   color: #fafafa;
   width: 100%;
   height: 25px;
-  margin: 5px o 20px 0;
+  margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
   padding: 0;
@@ -311,12 +313,12 @@ signup-form > h2 {
     column-count: 3;
   }
 
-  /*sign up form */
+  /*sign up for
   #signup {
     background-position: center;
     position: relative;
   }
-  signup-form {
+  #signup-form {
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -365,4 +367,5 @@ signup-form > h2 {
   #benefits-physical > div {
     align-self: flex-end;
   }
+}
 }
